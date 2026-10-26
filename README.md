@@ -68,7 +68,7 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 
 ### [Curvature Measurement — 레이저 변위센서 기반 비접촉 곡률·평탄도 측정 시스템](https://github.com/Kyuhyeon34/Curvature_Measurement_System)
 
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/STM32F411-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32F411"> <img src="https://img.shields.io/badge/ADC-555555?style=flat-square" alt="ADC"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> · 팀 프로젝트
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/STM32F411-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32F411"> <img src="https://img.shields.io/badge/ADC-555555?style=flat-square" alt="ADC"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART">
 
 - 서보모터로 레이저 변위센서를 -30°~+30° 원호 스캔해 기판의 휨(Bow)과 곡률을 비접촉으로 측정합니다.
 - STM32가 30ms 주기로 거리를 샘플링하고, 8회 오버샘플링으로 ADC 분해능을 13.43μm에서 4.75μm로 개선했습니다.
@@ -77,7 +77,7 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 
 ### [DC Motor Control — 상태머신 기반 이송 장비 DC 모터 제어 시스템](https://github.com/Kyuhyeon34/DC_Motor_Control)
 
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/STM32F411-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32F411"> <img src="https://img.shields.io/badge/PWM-555555?style=flat-square" alt="PWM"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> <img src="https://img.shields.io/badge/FSM-654FF0?style=flat-square" alt="FSM"> · 팀 프로젝트
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/STM32F411-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32F411"> <img src="https://img.shields.io/badge/PWM-555555?style=flat-square" alt="PWM"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> <img src="https://img.shields.io/badge/FSM-654FF0?style=flat-square" alt="FSM">
 
 - 버튼 숏클릭·롱클릭과 UART 명령(`F` / `R` / `S`)으로 DC 모터의 정회전·역회전·정지를 제어합니다.
 - `STOP` / `FORWARD` / `REVERSE` 상태머신과 이벤트별 함수 포인터 테이블로 입력을 처리합니다.
@@ -85,7 +85,7 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 
 ### [Parking System — 차량 감지 기반 스마트 주차 관제 솔루션](https://github.com/Kyuhyeon34/Parking_System)
 
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"> <img src="https://img.shields.io/badge/Qt%205-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt 5"> <img src="https://img.shields.io/badge/STM32F411-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32F411"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> · 팀 프로젝트
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"> <img src="https://img.shields.io/badge/Qt%205-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt 5"> <img src="https://img.shields.io/badge/STM32F411-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32F411"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART">
 
 - 초음파 센서로 차량을 감지하면 Qt 앱이 입·출차 다이얼로그를 띄우고, 확정 시 STM32가 차단기 모터를 5초 시퀀스로 구동합니다.
 - `PING` / `STATE?` / `GATE OPEN` 등 ASCII 시리얼 프로토콜을 설계해 MCU와 PC가 이벤트·거리·상태를 주고받습니다.
@@ -93,7 +93,7 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 
 ### [AI POS System — AI 객체 인식 기반 무인 계산 POS](https://github.com/Kyuhyeon34/AI_POS_System)
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"> <img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square" alt="YOLO11"> <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT"> · 팀 프로젝트
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"> <img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square" alt="YOLO11"> <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT">
 
 - 매대 아래 Jetson이 카메라 영상과 TensorRT 추론 서버를 띄우고, 계산대 PC의 POS가 결과를 받아 주문·결제를 처리합니다.
 - YOLO11n 모델 2개를 앙상블하고 좌우 반전 TTA를 더해, 처음 보는 사진 124장에서 mAP50-95 0.977을 얻었습니다.
@@ -101,7 +101,7 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 
 ### [Thermal Fan Driver — 커널 드라이버 기반 실시간 온도 감시·냉각 제어](https://github.com/Kyuhyeon34/Thermal_Fan_Driver)
 
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Linux%20Kernel-333333?style=flat-square&logo=linux&logoColor=white" alt="Linux Kernel"> <img src="https://img.shields.io/badge/Device%20Tree-00897B?style=flat-square" alt="Device Tree"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"> · 팀 프로젝트
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Linux%20Kernel-333333?style=flat-square&logo=linux&logoColor=white" alt="Linux Kernel"> <img src="https://img.shields.io/badge/Device%20Tree-00897B?style=flat-square" alt="Device Tree"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano">
 
 - BMP180(I2C/IIO), DC 모터(PWM), EC11 엔코더(GPIO IRQ), LED 바 커널 드라이버 4종을 Device Tree 오버레이로 연결했습니다.
 - 엔코더는 디바운스 타이머와 `kfifo` + `poll`로 회전·클릭·롱프레스 이벤트를 사용자 공간에 전달합니다.
@@ -109,7 +109,7 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 
 ### [FPGA Timer IP — FSM 기반 하드웨어 타이머 IP RTL 설계 및 FPGA 구현](https://github.com/Kyuhyeon34/FPGA_Timer_IP)
 
-<img src="https://img.shields.io/badge/Verilog%20HDL-654FF0?style=flat-square" alt="Verilog HDL"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/Basys%203-555555?style=flat-square" alt="Basys 3"> · 팀 프로젝트
+<img src="https://img.shields.io/badge/Verilog%20HDL-654FF0?style=flat-square" alt="Verilog HDL"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/Basys%203-555555?style=flat-square" alt="Basys 3">
 
 - 분·초 시계와 1/100초 스톱워치 2모드를 FSM으로 설계하고, 4자리 FND를 시분할로 구동합니다.
 - 10ms 버튼 디바운서, 틱 생성기, FND 컨트롤러를 모듈로 분리했습니다.
