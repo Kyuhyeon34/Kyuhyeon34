@@ -30,12 +30,12 @@ MCU 펌웨어부터 리눅스 커널 드라이버, 엣지 AI, FPGA 설계까지 
 
 | # | 프로젝트 | 기술 |
 | :---: | --- | --- |
-| 1 | [**레이저 변위센서 기반 비접촉 곡률·평탄도 측정 시스템 개발**](https://github.com/Kyuhyeon34/laser-curvature-scanner) | C, Python, STM32, ADC·UART |
-| 2 | [**상태머신 기반 이송 장비 DC 모터 제어 시스템 구현**](https://github.com/Kyuhyeon34/STM32F411_Motor_Project) | C, STM32, PWM·UART |
-| 3 | [**차량 감지 기반 스마트 주차 관제 솔루션 개발**](https://github.com/Kyuhyeon34/QT-Parking-system_QT5) | C/C++, STM32, Qt, UART |
-| 4 | [**AI 객체 인식 기반 무인 계산 POS 개발**](https://github.com/Kyuhyeon34/breadvision) | Python, Jetson, YOLO, TensorRT |
-| 5 | [**커널 드라이버 기반 실시간 온도 감시·냉각 제어 구현**](https://github.com/Kyuhyeon34/linux_driver_project) | Linux Kernel, Device Driver |
-| 6 | [**FSM 기반 하드웨어 타이머 IP RTL 설계 및 FPGA 구현**](https://github.com/Kyuhyeon34/basys3-stopwatch) | Verilog, Vivado, Basys3 |
+| 1 | [**레이저 변위센서 기반 비접촉 곡률·평탄도 측정 시스템 개발**](https://github.com/Kyuhyeon34/Curvature_Measurement_System) | C, Python, STM32, ADC·UART |
+| 2 | [**상태머신 기반 이송 장비 DC 모터 제어 시스템 구현**](https://github.com/Kyuhyeon34/DC_Motor_Control) | C, STM32, PWM·UART |
+| 3 | [**차량 감지 기반 스마트 주차 관제 솔루션 개발**](https://github.com/Kyuhyeon34/Parking_System) | C/C++, STM32, Qt, UART |
+| 4 | [**AI 객체 인식 기반 무인 계산 POS 개발**](https://github.com/Kyuhyeon34/AI_POS_System) | Python, Jetson, YOLO, TensorRT |
+| 5 | [**커널 드라이버 기반 실시간 온도 감시·냉각 제어 구현**](https://github.com/Kyuhyeon34/Thermal_Fan_Driver) | Linux Kernel, Device Driver |
+| 6 | [**FSM 기반 하드웨어 타이머 IP RTL 설계 및 FPGA 구현**](https://github.com/Kyuhyeon34/FPGA_Timer_IP) | Verilog, Vivado, Basys3 |
 
 ### 1. 레이저 변위센서 기반 비접촉 곡률·평탄도 측정 시스템
 - 서보모터로 레이저 변위센서를 -30°~+30° 원호 스캔해 기판의 휨(Bow)과 곡률을 비접촉 측정
