@@ -147,7 +147,7 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kyuhyeon34&theme=react-dark&bg_color=0B1D2A&hide_border=true&line=00B4A0&color=00B4A0" width="98%" alt="GitHub contribution activity">
+  <img src="https://ghchart.rshah.org/00B4A0/Kyuhyeon34" width="98%" alt="GitHub contribution activity">
 </p>
 
 </details>
