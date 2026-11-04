@@ -107,13 +107,14 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 - 엔코더는 디바운스 타이머와 `kfifo` + `poll`로 회전·클릭·롱프레스 이벤트를 사용자 공간에 전달합니다.
 - 사용자 앱은 히스테리시스 기반으로 온도에 따라 팬 듀티를 자동 조절하고, `WAIT` / `AUTO` / `MANUAL` 모드를 전환합니다.
 
-### [FPGA Timer IP — FSM 기반 하드웨어 타이머 IP RTL 설계 및 FPGA 구현](https://github.com/Kyuhyeon34/FPGA_Timer_IP)
+### [FPGA Microwave Controller — FSM 기반 전자레인지 제어 시스템 RTL 설계 및 FPGA 구현](https://github.com/Kyuhyeon34/FPGA_Microwave_Controller)
 
-<img src="https://img.shields.io/badge/Verilog%20HDL-654FF0?style=flat-square" alt="Verilog HDL"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/Basys%203-555555?style=flat-square" alt="Basys 3">
+<img src="https://img.shields.io/badge/Verilog%20HDL-654FF0?style=flat-square" alt="Verilog HDL"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/Basys%203-555555?style=flat-square" alt="Basys 3"> <img src="https://img.shields.io/badge/FSM-654FF0?style=flat-square" alt="FSM"> <img src="https://img.shields.io/badge/PWM-0078D4?style=flat-square" alt="PWM">
 
-- 분·초 시계와 1/100초 스톱워치 2모드를 FSM으로 설계하고, 4자리 FND를 시분할로 구동합니다.
-- 10ms 버튼 디바운서, 틱 생성기, FND 컨트롤러를 모듈로 분리했습니다.
-- 테스트벤치 16개 항목 통과, 합성 후 LUT 315 · FF 167, 타이밍 여유 WNS +5.1ns를 확인했습니다.
+- 로터리 엔코더 시간 설정, 서보 문 개폐, 턴테이블 DC 모터 PWM(세기 5단계), 부저 효과음을 `IDLE` / `COOK` / `PAUSE` / `DONE` FSM 하나로 통합했습니다.
+- 디바운서, 로터리 디코더, 효과음 ROM 재생기, 서보·모터 PWM, FND 표시 등 최상위 포함 10개 모듈로 나눠 설계했습니다.
+- 조리 중 문 열림 자동 일시정지, 문 열림·시간 0에서 시작 시 에러음, +30초 Quick Start 등 안전·편의 기능을 더했습니다.
+- 테스트벤치 40개 항목 통과, 합성 후 LUT 725 · FF 381, 타이밍 여유 WNS +1.73ns를 확인했습니다.
 
 ## 🎓 Education
 
