@@ -8,13 +8,13 @@
 
 MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA 설계까지 하드웨어와 소프트웨어를 잇는 임베디드 개발자입니다.
 
-<a href="mailto:kyuhyeon34@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://kyuhyeon34.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0E7C6B?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a> <a href="mailto:kyuhyeon34@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 
 </div>
 
 ## 👋 About Me
 
-- 호서대학교 전자공학과 졸업 (2026.02) · 반도체공학 복수전공
+- 호서대학교 전자공학과 졸업 (2026.02) · 반도체공학(패키지 공정) 복수전공
 - 대한상공회의소 서울기술교육센터 AI 시스템반도체 SW개발자 과정 진행 중
 - C 기반 STM32 펌웨어와 Jetson 리눅스 커널 드라이버를 개발하고 있습니다.
 - Jetson에서 YOLO 모델을 TensorRT로 변환해 온디바이스 AI 추론을 구현합니다.
@@ -34,7 +34,7 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 <p align="center">
   <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32">
   <img src="https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino">
-  <img src="https://img.shields.io/badge/Jetson%20Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson Nano">
+  <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson Orin Nano">
 </p>
 
 <h3 align="center">Linux Driver & Interfaces</h3>
@@ -70,23 +70,17 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 
 <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/STM32F411-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32F411"> <img src="https://img.shields.io/badge/ADC-555555?style=flat-square" alt="ADC"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART">
 
+- 2025 산학프로젝트(㈜천진) · 6인 팀 중 STM32 펌웨어와 곡률 계산 알고리즘을 맡았고, 성과발표회 대상을 받았습니다.
 - 서보모터로 레이저 변위센서를 -30°~+30° 원호 스캔해 기판의 휨(Bow)과 곡률을 비접촉으로 측정합니다.
 - STM32가 30ms 주기로 거리를 샘플링하고, 8회 오버샘플링으로 ADC 분해능을 13.43μm에서 4.75μm로 개선했습니다.
 - 세 점 외접원 공식으로 곡률을 계산하고, Python GUI에서 단면 형상과 임계값 0.05mm 초과 지점을 표시합니다.
 - 반복 정밀도 0.03mm, 평균 오차율 ±0.03%를 확인했습니다.
 
-### [DC Motor Control — 상태머신 기반 이송 장비 DC 모터 제어 시스템](https://github.com/Kyuhyeon34/DC_Motor_Control)
-
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/STM32F411-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32F411"> <img src="https://img.shields.io/badge/PWM-555555?style=flat-square" alt="PWM"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> <img src="https://img.shields.io/badge/FSM-654FF0?style=flat-square" alt="FSM">
-
-- 버튼 숏클릭·롱클릭과 UART 명령(`F` / `R` / `S`)으로 DC 모터의 정회전·역회전·정지를 제어합니다.
-- `STOP` / `FORWARD` / `REVERSE` 상태머신과 이벤트별 함수 포인터 테이블로 입력을 처리합니다.
-- 레지스터로 PLL 96MHz 클럭, TIM5 PWM 속도 제어, TIM2 롱클릭 판정, USART2 RX 인터럽트를 설정했습니다.
-
 ### [Parking System — 차량 감지 기반 스마트 주차 관제 솔루션](https://github.com/Kyuhyeon34/Parking_System)
 
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"> <img src="https://img.shields.io/badge/Qt%205-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt 5"> <img src="https://img.shields.io/badge/STM32F411-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32F411"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART">
 
+- 4인 팀 중 STM32 베어메탈 펌웨어와 STM32 ↔ Qt 1차 통합을 맡았습니다.
 - 초음파 센서로 차량을 감지하면 Qt 앱이 입·출차 다이얼로그를 띄우고, 확정 시 STM32가 차단기 모터를 5초 시퀀스로 구동합니다.
 - `PING` / `STATE?` / `GATE OPEN` 등 ASCII 시리얼 프로토콜을 설계해 MCU와 PC가 이벤트·거리·상태를 주고받습니다.
 - 펌웨어를 `Handler → StateMachine → Controller` 계층으로 나누고, 처리 중에는 초음파 트리거를 멈춰 중복 감지를 막습니다.
@@ -95,17 +89,27 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"> <img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square" alt="YOLO11"> <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT">
 
+- 4인 팀 중 Jetson 추론 서버 · POS 연동과 STM32 카메라 회전 제어를 맡았습니다.
 - 매대 아래 Jetson이 카메라 영상과 TensorRT 추론 서버를 띄우고, 계산대 PC의 POS가 결과를 받아 주문·결제를 처리합니다.
-- YOLO11n 모델 2개를 앙상블하고 좌우 반전 TTA를 더해, 처음 보는 사진 124장에서 mAP50-95 0.977을 얻었습니다.
+- YOLO11n 모델 2개를 앙상블하고 좌우 반전 TTA를 더해, 처음 보는 사진 124장에서 mAP50-95 0.977, 오류 38건 → 20건으로 줄였고, 실전 테스트 120장에서는 오인식 0건이었습니다.
 - POS 안에서 데이터 수집, 자동 라벨링, 재학습, 엔진 변환까지 이어지도록 구성했습니다.
 
 ### [Thermal Fan Driver — 커널 드라이버 기반 실시간 온도 감시·냉각 제어](https://github.com/Kyuhyeon34/Thermal_Fan_Driver)
 
 <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Linux%20Kernel-333333?style=flat-square&logo=linux&logoColor=white" alt="Linux Kernel"> <img src="https://img.shields.io/badge/Device%20Tree-00897B?style=flat-square" alt="Device Tree"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano">
 
+- 4인 팀 중 LED 바 커널 드라이버(GPIO 배열 · 커널 타이머 애니메이션 · ioctl / sysfs)를 맡았습니다.
 - BMP180(I2C/IIO), DC 모터(PWM), EC11 엔코더(GPIO IRQ), LED 바 커널 드라이버 4종을 Device Tree 오버레이로 연결했습니다.
 - 엔코더는 디바운스 타이머와 `kfifo` + `poll`로 회전·클릭·롱프레스 이벤트를 사용자 공간에 전달합니다.
 - 사용자 앱은 히스테리시스 기반으로 온도에 따라 팬 듀티를 자동 조절하고, `WAIT` / `AUTO` / `MANUAL` 모드를 전환합니다.
+
+### [FPGA I2C Sensor Monitor — FPGA 2대 연동 I2C 센서 모니터링 시스템](https://github.com/Kyuhyeon34/FPGA_I2C_Sensor_Monitor)
+
+<img src="https://img.shields.io/badge/Verilog%20HDL-654FF0?style=flat-square" alt="Verilog HDL"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/Basys%203-555555?style=flat-square" alt="Basys 3"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C">
+
+- 2인 팀 중 I2C Slave(0x42), 스냅샷 레지스터 맵, DHT11 · HC-SR04 센서 드라이버를 맡았습니다.
+- I2C START 순간 센서값을 고정해, 8바이트를 읽는 동안 값이 바뀌어도 섞이지 않게 했습니다.
+- Slave 테스트벤치 18개 항목 통과, 타이밍 여유 WNS +3.1ns, 오실로스코프로 보드 간 9바이트 응답(SCL 99.86kHz)을 확인했습니다.
 
 ### [FPGA Microwave Controller — FSM 기반 전자레인지 제어 시스템 RTL 설계 및 FPGA 구현](https://github.com/Kyuhyeon34/FPGA_Microwave_Controller)
 
@@ -115,6 +119,18 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 - 디바운서, 로터리 디코더, 효과음 ROM 재생기, 서보·모터 PWM, FND 표시 등 최상위 포함 10개 모듈로 나눠 설계했습니다.
 - 조리 중 문 열림 자동 일시정지, 문 열림·시간 0에서 시작 시 에러음, +30초 Quick Start 등 안전·편의 기능을 더했습니다.
 - 테스트벤치 40개 항목 통과, 합성 후 LUT 725 · FF 381, 타이밍 여유 WNS +1.73ns를 확인했습니다.
+
+### [ATmega128A Auto Car — 초음파 센서 기반 자율주행 RC카](https://github.com/Kyuhyeon34/ATmega128a_AUTO_CAR)
+
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/ATmega128A-555555?style=flat-square" alt="ATmega128A"> <img src="https://img.shields.io/badge/PWM-0078D4?style=flat-square" alt="PWM"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> <img src="https://img.shields.io/badge/FSM-654FF0?style=flat-square" alt="FSM">
+
+- 초음파 센서 3개로 전방 · 좌측 · 우측 거리를 재고, 전방 40cm · 측면 20cm 기준으로 장애물을 피해 주행합니다.
+- 블루투스 수동 모드와 자율주행 모드를 버튼 하나로 전환하고, FND 2개에 주행 상태와 운행 기록을 표시합니다.
+
+#### Other
+
+- [DC Motor Control](https://github.com/Kyuhyeon34/DC_Motor_Control) — 상태머신 기반 이송 장비 DC 모터 제어 (STM32F411 레지스터 · PWM · UART)
+- [RTC 시계 · 복합 계산기](https://github.com/Kyuhyeon34/ATmeag128A-I2C_RTC_CALC) — ATmega128A · DS1307 I2C · LCD1602, 오실로스코프 파형 분석
 
 ## 🎓 Education
 
@@ -127,7 +143,8 @@ MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA �
 
 - **2025 호서대학교 반도체 역량강화 성과발표회 대상**
 - **2025 호서대학교 융합교육 학습경험 우수사례 공모전 장려상**
-- **TOEIC Speaking IH**
+- **TOEIC Speaking IH** (2026.10)
+- **컴퓨터활용능력 2급** (2026.04)
 
 ## 📫 Contact
 
