@@ -8,7 +8,7 @@
 
 MCU 펌웨어와 리눅스 커널 드라이버부터 온디바이스 AI, FPGA 설계까지 하드웨어와 소프트웨어를 잇는 임베디드 개발자입니다.
 
-<a href="https://kyuhyeon34.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0E7C6B?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a> <a href="mailto:kyuhyeon34@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://kyuhyeon34.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0E7C6B?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a> <a href="https://www.notion.so/41693c81f55e818da68cf0f5c4923bea"><img src="https://img.shields.io/badge/Notion%20Portfolio-000000?style=flat-square&logo=notion&logoColor=white" alt="Notion Portfolio"></a> <a href="mailto:kyuhyeon34@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 
 </div>
 
